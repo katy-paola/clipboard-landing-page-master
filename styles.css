@@ -1,0 +1,88 @@
+:root{
+    /*Colors Primary*/
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+
+    /*Colors Neutral*/
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+
+    /*Typography Body Copy*/
+    --font-base: 18px;
+
+    /*Typography Fonts*/
+    --bai-jamjuree: 'Bai Jamjuree', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: minmax(300px, 1fr);
+    align-content: space-between;
+    justify-content: center;
+    font-family: var(--bai-jamjuree);
+}
+.section,
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.section:nth-of-type(1){
+    min-height: 100vh;
+}
+.section__header{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 30vh;
+    background-image: url("/images/bg-header-mobile.png");
+}
+.section__article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    padding: 30px;
+}
+.section__title{
+    font-size: 30px;
+    color: var(--dark-grayish-blue);
+}
+.section__paragraph{
+    font-size: 16.3px;
+    line-height: 1.5;
+    color: var(--grayish-blue);
+}
+.section__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 30px 80px;
+    width: 100%;
+}
+.section__button{
+    width: 100%;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: var(--font-base);
+    border-radius: 30px;
+    box-shadow: 1px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.section__button--green{
+    background-color: var(--strong-cyan);
+}
+.section__button--blue{
+    background-color: var(--light-blue);
+}
+img{
+    width: 110px;
+    height: auto;
+}
