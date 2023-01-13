@@ -142,3 +142,20 @@ img{
 .section__img--full{
     width: 100%;
 }
+.section:nth-of-type(4){
+    justify-content: center;
+    gap: 60px;
+}
+.section__features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.section__feature--gap{
+    gap: 55px;
+}
+.feature__icon{
+    width: 38px;
+}
