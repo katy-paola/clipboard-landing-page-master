@@ -49,6 +49,10 @@ footer{
     background-image: url("/images/bg-header-mobile.png");
     background-size: cover;
 }
+.header__logo{
+    width: 110px;
+    height: auto;
+}
 .section__article{
     display: flex;
     flex-direction: column;
@@ -69,7 +73,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 0 30px 80px;
+    padding: 0 30px 100px;
     width: 100%;
 }
 .section__button{
@@ -90,11 +94,41 @@ footer{
 }
 .section__button--green:hover{
     background-color: var(--strong-cyan-alpha);
+    box-shadow: 0 3px 0 var(--strong-cyan);
 }
 .section__button--blue:hover{
     background-color: var(--light-blue-alpha);
+    box-shadow: 0 3px 0 var(--light-blue);
+}
+.section:nth-of-type(2){
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 img{
     width: 110px;
     height: auto;
+}
+.section__subtitle{
+    font-size: 1.6rem;
+    color: var(--dark-grayish-blue);
+}
+.section__img{
+    width: 90%;
+}
+.section__feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+}
+.section__feature,
+.section__img{
+    padding: 15px;
+}
+.section__feature-title{
+    font-size: 1.4rem;
+    color: var(--dark-grayish-blue);
 }
