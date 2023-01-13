@@ -132,6 +132,13 @@ img{
     font-size: 1.4rem;
     color: var(--dark-grayish-blue);
 }
+.section:nth-of-type(3){
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 65px;
+}
 .section__img--full{
     width: 100%;
 }
