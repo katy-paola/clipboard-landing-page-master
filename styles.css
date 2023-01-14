@@ -10,6 +10,7 @@
     /*Colors Neutral*/
     --dark-grayish-blue: hsl(210, 10%, 33%);
     --grayish-blue: hsl(201, 11%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
 
     /*Typography Body Copy*/
     --font-base: 18px;
@@ -182,4 +183,33 @@ footer{
     min-height: 80vh;
     justify-content: center;
     gap: 45px;
+}
+.footer{
+    min-height: 80vh;
+    gap: 50px;
+    background-color: var(--very-light-gray);
+}
+.footer__logo{
+    width: 3.6rem;
+}
+.footer__options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+}
+.footer__icons{
+    display: flex;
+    gap: 35px;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__option,
+.footer__paragraph,
+.footer__link{
+    font-size: 16.3px;
+    color: var(--dark-grayish-blue);
 }
