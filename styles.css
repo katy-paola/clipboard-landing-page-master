@@ -178,3 +178,8 @@ footer{
     --padding-buttons: 0 0 100px;
     padding: var(--padding-buttons);
 }
+.section:nth-of-type(6){
+    min-height: 80vh;
+    justify-content: center;
+    gap: 45px;
+}
