@@ -229,6 +229,33 @@ footer{
 @media screen and (min-width: 1440px){
     .section__header{
         background-image: url("/images/bg-header-desktop.png");
-        min-height: 50vh;
+        min-height: 45vh;
+        align-items: end;
+        padding-bottom: 6%;
+    }
+    .header__logo{
+        width: 140px;
+    }
+    .section__article--withpd{
+        flex: 1;
+        width: 100%;
+    }
+    .section__title{
+        font-size: 50px;
+    }
+    .section__paragraph{
+        font-size: 22.5px;
+        max-width: 60%;
+    }
+    .section__buttons{
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__button{
+        width: auto;
+        font-size: 22px;
+        padding: 15px 30px;
     }
 }
