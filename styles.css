@@ -303,8 +303,16 @@ footer{
     .section:nth-of-type(4) .section__features{
         flex-direction: row;
         gap: 30px;
+        width: 90%;
+        align-items: baseline;
     }
     .section:nth-of-type(4) .section__article .section__paragraph{
         max-width: 100%;
+    }
+    .section:nth-of-type(5){
+        flex-direction: row;
+        min-height: auto;
+        justify-content: space-evenly;
+        padding: 100px 0;
     }
 }
