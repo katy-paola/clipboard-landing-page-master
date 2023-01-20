@@ -297,4 +297,14 @@ footer{
         text-align: start;
         font-size: 18px;
     }
+    .section__img--full{
+        width: 60%;
+    }
+    .section:nth-of-type(4) .section__features{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .section:nth-of-type(4) .section__article .section__paragraph{
+        max-width: 100%;
+    }
 }
